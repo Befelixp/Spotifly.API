@@ -1,8 +1,7 @@
 import flask
 import psycopg2
 import logging
-import time
-import logging
+
 
 
 app = flask.Flask(__name__)
@@ -25,7 +24,7 @@ def db_connection():
         password='aulaspl',
         host='127.0.0.1', # não sei se ta certo
         port='5432',
-        database='ProjetoBD'
+        database='DBPROJECT'
     )
 
     return db
@@ -37,7 +36,7 @@ def user_exists(username):
 
     try:
         # Verificar se o usuário já existe na tabela de usuários
-        cur.execute("SELECT COUNT(*) FROM users WHERE username = %s", (username,))
+        cur.execute("SELECT COUNT(*) FROM users WHERE nickname = %s", (username))
         count = cur.fetchone()[0]
 
         if count > 0:
@@ -94,18 +93,30 @@ def create_user(username, password,email,name,address):
 
 @app.route('/register', methods=['POST'])
 def register():
-    
     payload = flask.request.get_json()
 
-    username= payload['nickname']
-    password= payload['password']
+    username = payload['nickname']
+    password = payload['password']
     email = payload['email']
     name = payload['name']
     address = payload['address']
     birthday = payload['birthday']
 
+    # Verificar se o usuário já existe
+    if user_exists(username):
+        response = {'error': 'O usuário já existe'}
+        return flask.jsonify(response), 400
 
+    # Validar a senha
+    if not validate_password(password):
+        response = {'error': 'A senha deve ter pelo menos 6 caracteres, incluindo letras maiúsculas, minúsculas e números'}
+        return flask.jsonify(response), 400
 
-    
-
+    # Inserir informações do usuário no banco de dados
+    if create_user(username, password, email, name, address, birthday):
+        response = {'message': 'Registro de conta bem-sucedido'}
+        return flask.jsonify(response), 200
+    else:
+        response = {'error': 'Erro ao registrar a conta'}
+        return flask.jsonify(response), 500
 
