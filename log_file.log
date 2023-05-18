@@ -1,0 +1,92 @@
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 16:39:13] "[32mGET /departments HTTP/1.1[0m" 308 -
+INFO:logger:GET /departments
+DEBUG:logger:GET /departments - parse
+DEBUG:logger:(Decimal('10'), 'Contabilidade', 'Condeixa')
+DEBUG:logger:(Decimal('20'), 'Investigacao', 'Mealhada')
+DEBUG:logger:(Decimal('30'), 'Vendas', 'Coimbra')
+DEBUG:logger:(Decimal('40'), 'Planeamento', 'Montemor')
+DEBUG:logger:(Decimal('90'), 'Polo II', 'Informatica')
+DEBUG:logger:(Decimal('55'), 'Góis', 'Figueira da Foz')
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 16:39:14] "GET /departments/ HTTP/1.1" 200 -
+INFO:logger:POST /departments
+DEBUG:logger:POST /departments - payload: {'ndep': 55, 'localidade': 'Góis', 'nome': 'Justina'}
+ERROR:logger:POST /departments - error: duplicate key value violates unique constraint "dep_pkey"
+DETAIL:  Key (ndep)=(55) already exists.
+
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 16:45:42] "POST /departments/?= HTTP/1.1" 200 -
+INFO:logger:POST /departments
+DEBUG:logger:POST /departments - payload: {'ndep': 65, 'localidade': 'Góis', 'nome': 'Justina'}
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 16:45:52] "POST /departments/?= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 16:45:55] "[32mGET /departments HTTP/1.1[0m" 308 -
+INFO:logger:GET /departments
+DEBUG:logger:GET /departments - parse
+DEBUG:logger:(Decimal('10'), 'Contabilidade', 'Condeixa')
+DEBUG:logger:(Decimal('20'), 'Investigacao', 'Mealhada')
+DEBUG:logger:(Decimal('30'), 'Vendas', 'Coimbra')
+DEBUG:logger:(Decimal('40'), 'Planeamento', 'Montemor')
+DEBUG:logger:(Decimal('90'), 'Polo II', 'Informatica')
+DEBUG:logger:(Decimal('55'), 'Góis', 'Figueira da Foz')
+DEBUG:logger:(Decimal('65'), 'Góis', 'Justina')
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 16:45:55] "GET /departments/ HTTP/1.1" 200 -
+INFO:logger:POST /departments
+DEBUG:logger:POST /departments - payload: {'ndep': 65, 'nome': 'Góis', 'localidade': 'Justina'}
+ERROR:logger:POST /departments - error: duplicate key value violates unique constraint "dep_pkey"
+DETAIL:  Key (ndep)=(65) already exists.
+
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 16:46:26] "POST /departments/?= HTTP/1.1" 200 -
+INFO:logger:PUT /departments/<ndep>
+DEBUG:logger:PUT /departments/<ndep> - payload: {'localidade': 'Góis', 'nome': 'Justina'}
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 16:47:06] "PUT /departments/55 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 16:47:16] "[32mGET /departments HTTP/1.1[0m" 308 -
+INFO:logger:GET /departments
+DEBUG:logger:GET /departments - parse
+DEBUG:logger:(Decimal('10'), 'Contabilidade', 'Condeixa')
+DEBUG:logger:(Decimal('20'), 'Investigacao', 'Mealhada')
+DEBUG:logger:(Decimal('30'), 'Vendas', 'Coimbra')
+DEBUG:logger:(Decimal('40'), 'Planeamento', 'Montemor')
+DEBUG:logger:(Decimal('90'), 'Polo II', 'Informatica')
+DEBUG:logger:(Decimal('65'), 'Góis', 'Justina')
+DEBUG:logger:(Decimal('55'), 'Góis', 'Góis')
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 16:47:16] "GET /departments/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 17:02:48] "[32mGET /departments HTTP/1.1[0m" 308 -
+INFO:logger:GET /departments
+DEBUG:logger:GET /departments - parse
+DEBUG:logger:(Decimal('10'), 'Contabilidade', 'Condeixa')
+DEBUG:logger:(Decimal('20'), 'Investigacao', 'Mealhada')
+DEBUG:logger:(Decimal('30'), 'Vendas', 'Coimbra')
+DEBUG:logger:(Decimal('40'), 'Planeamento', 'Montemor')
+DEBUG:logger:(Decimal('90'), 'Polo II', 'Informatica')
+DEBUG:logger:(Decimal('65'), 'Góis', 'Justina')
+DEBUG:logger:(Decimal('55'), 'Góis', 'Góis')
+INFO:werkzeug:127.0.0.1 - - [18/May/2023 17:02:48] "GET /departments/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\requests\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\capture.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\doctest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\junitxml.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\logging.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\monkeypatch.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\recwarn.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\tmpdir.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
