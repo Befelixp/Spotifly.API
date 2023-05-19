@@ -120,3 +120,51 @@ def register():
         response = {'error': 'Erro ao registrar a conta'}
         return flask.jsonify(response), 500
 
+
+def get_user_password(username):
+    conn = db_connection()
+    cur = conn.cursor()
+
+    try:
+        # Retrieve the password for the given username from the users table
+        cur.execute("SELECT password FROM users WHERE username = %s", (username,))
+        result = cur.fetchone()
+
+        if result is not None:
+            return result[0]  # Return the password
+
+    except (Exception, psycopg2.DatabaseError) as error:
+        logging.error(f'Error retrieving user password: {error}')
+
+    finally:
+        if conn is not None:
+            conn.close()
+
+    return None  # Return None if the password is not found or an error occurs
+
+@app.route('/login', methods=['POST'])
+def login():
+    payload = flask.request.get_json()
+
+    username = payload['username']
+    password = payload['password']
+
+    # Verificar se o usuário existe
+    if not user_exists(username):
+        response = {'error': 'Usuário não encontrado'}
+        return flask.jsonify(response), 404
+
+    # Obter a senha armazenada no banco de dados para o usuário
+    stored_password = get_user_password(username)
+
+    # Verificar se a senha fornecida corresponde à senha armazenada
+    if password != stored_password:
+        response = {'error': 'Senha incorreta'}
+        return flask.jsonify(response), 401
+
+    # Autenticação bem-sucedida
+    response = {'message': 'Login bem-sucedido'}
+    return flask.jsonify(response), 200
+
+
+

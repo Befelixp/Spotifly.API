@@ -90,3 +90,30 @@ INFO:werkzeug: * Restarting with watchdog (windowsapi)
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 124-746-106
 INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\flask\\ctx.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\json.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\base_response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\itsdangerous\\url_safe.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\itsdangerous\\serializer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\itsdangerous\\timed.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\itsdangerous\\signer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\flask\\logging.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\datetime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\jwt\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\random.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\string.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\jwt\\api_jwt.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
