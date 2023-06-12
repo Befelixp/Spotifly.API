@@ -705,3 +705,6 @@ INFO:werkzeug:127.0.0.1 - - [19/May/2023 19:32:11] "[35m[1mPOST /register HTTP
 INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
 INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
 INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
