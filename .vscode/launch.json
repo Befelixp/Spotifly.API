@@ -7,7 +7,13 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "justMyCode": true
+            "justMyCode": true,
+            "env": {
+                "FLASK_APP": "spotiflyAPI.py",
+                "FLASK_ENV": "development",
+                "SECRET_KEY": "TJ8YTtc8_DZsThqisJYD1uzfN04Y2OXnCGFdxJtJ61w",
+                "JWT_EXPIRATION_DELTA": "60"
+            },
         }
     ]
 }
