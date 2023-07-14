@@ -1,0 +1,533 @@
+{
+	"info": {
+		"_postman_id": "2b1f2973-e9ea-4861-a902-d3ecfecaef2e",
+		"name": "SpotFly",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26346168"
+	},
+	"item": [
+		{
+			"name": "Musica",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjYsInVzZXJuYW1lIjoicGVkcm8iLCJyb2xlcyI6WyJBcnRpc3RhIl0sImV4cCI6MTY4Njk0MzYwNS40MDg5NjV9.Kjiw_W2UE7s9rtiwURVPJcnZWjijPAehzIR_cpTjcxM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"genero\" : \"Romântica\",\r\n\"song_name\" : \"Nunca desistir\",\r\n\"release_date\" : \"2024-05-28T00:00:00\",\r\n\"publisher\" : 2,\r\n\"other_artists\" :[17],\r\n\"duracao\" : 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/song",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"song"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editora",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpwZWRybyIsInJvbGVzIjpbIkFkbWluIl0sImV4cCI6MTY4Njg1NDE1My40NTYxNzh9.ENq-83Lb5sEWiQDxILRtkQLrDwmcU7A5tt-jlZIHY6U",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\" : \"EDIT\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/editora",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"editora"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Profiles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\" : \"Artista\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/profiles",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"profiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nickname\" :\"pedro\",\r\n\"password\" : \"Senha1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/user",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Artista",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoianBlZHJvIiwicm9sZXMiOlsiQWRtaW4iXSwiZXhwIjoxNjg2OTI3MTg1LjEyODI3MX0.TN_6OJ9n1a7Kj5FCC4ebVrNM5tsvHx4BbvVZ-TE0GTU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"userid\" :6,\r\n\"artisticname\" : \"ALOK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/addartist",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"addartist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"users_userid\" : 1,\r\n\"profiles_profileid\" : 2 \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/users_profiles",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"users_profiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cartoes",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoianBlZHJvIiwicm9sZXMiOlsiQWRtaW4iXSwiZXhwIjoxNjg2OTM0ODYzLjk5ODk0Mn0.DQplRbnLEvqsCG5Thq1yp7UNcEKSGer4fEDBhuLphm4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"number_cards\": \"4\",\r\n    \"card_price\": \"10\",\r\n    \"vencimento\": \"2023-06-10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/card",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"card"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Playlist",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjE4LCJ1c2VybmFtZSI6IkNhcmxvcyIsInJvbGVzIjpbXSwiZXhwIjoxNjg2OTQzODQ4LjA5OTI3NH0.tCQ9IB0O6LHX2BzD5iTXigkp0A-TslOieKSqC_JRibQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"playlist_name\": \"Musicas para ouvir\",\r\n    \"visibility\": \"public\",\r\n    \"songs\": [3,2,4]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/playlist",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"playlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Album",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjYsInVzZXJuYW1lIjoicGVkcm8iLCJyb2xlcyI6WyJBcnRpc3RhIl0sImV4cCI6MTY4Njk0NjcyOC4yOTE3NzJ9.HJaH6dCW1luI0bC0JAVMtBANVM1iJk9X18SPciCDMSM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"AlbumDaora\",\r\n    \"release_date\": \"2024-08-28T00:00:00\",\r\n    \"publisher\": 2,\r\n    \"songs\": [\r\n        {\"genero\" : \"Rock\",\r\n        \"song_name\" : \"Triste\",\r\n        \"release_date\" : \"2024-08-28T00:00:00\",\r\n        \"publisher\" : 2,\r\n        \"other_artists\" :[17],\r\n        \"duracao\" : 333},\r\n\r\n        {\"genero\" : \"Raggae\",\r\n        \"song_name\" : \"Ser Feliz\",\r\n        \"release_date\" : \"2024-08-28T00:00:00\",\r\n        \"publisher\" : 2,\r\n        \"other_artists\" :[17],\r\n        \"duracao\" : 250}\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/album",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"album"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subscription",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjE4LCJ1c2VybmFtZSI6IkNhcmxvcyIsInJvbGVzIjpbXSwiZXhwIjoxNjg2OTM3ODgzLjkzMDIyOX0.9O-rcl27RC3LcaSwtaVtKzMzVnWkwUqpiK8Pyq8k2g4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"period\": \"quarter\" ,\r\n    \"cards\": [26408403403356340,15156536972703455]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/subscription",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"subscription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comentario",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjYsInVzZXJuYW1lIjoicGVkcm8iLCJyb2xlcyI6WyJBcnRpc3RhIl0sImV4cCI6MTY4Njk0NjcyOC4yOTE3NzJ9.HJaH6dCW1luI0bC0JAVMtBANVM1iJk9X18SPciCDMSM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"comment\": \"Comentario daora\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/comments/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"comments",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Procura Musica",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjYsInVzZXJuYW1lIjoicGVkcm8iLCJyb2xlcyI6WyJBcnRpc3RhIl0sImV4cCI6MTY4Njk0NjcyOC4yOTE3NzJ9.HJaH6dCW1luI0bC0JAVMtBANVM1iJk9X18SPciCDMSM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/song/Ter Fé",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"song",
+						"Ter Fé"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Detalhes Artista",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjE4LCJ1c2VybmFtZSI6IkNhcmxvcyIsInJvbGVzIjpbXSwiZXhwIjoxNjg2OTM3ODgzLjkzMDIyOX0.9O-rcl27RC3LcaSwtaVtKzMzVnWkwUqpiK8Pyq8k2g4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dbproj/artist_info/6",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dbproj",
+						"artist_info",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

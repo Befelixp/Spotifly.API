@@ -2339,3 +2339,1023 @@ INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
 INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
 INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
 INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 14:04:14] "POST /dbproj/card HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\flask\\_compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\jwt\\api_jwt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\jwt\\api_jws.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\jwt\\algorithms.py', reloading
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 14:52:44] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\jwt\\utils.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 14:53:05] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 14:56:14] "[33mPUT /dbproj/addArtista HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 14:56:25] "[33mPUT /dbproj/addArtista HTTP/1.1[0m" 404 -
+ERROR:logger:unsupported format character 'd' (0x64) at index 75
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 14:56:42] "PUT /dbproj/addartist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 14:58:02] "PUT /dbproj/addartist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 14:59:47] "PUT /dbproj/addartist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\.vscode\\extensions\\ms-python.python-2023.10.1\\pythonFiles\\lib\\python\\debugpy\\adapter\\clients.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:03:41] "PUT /dbproj/addartist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:13:03] "PUT /dbproj/user HTTP/1.1" 200 -
+ERROR:logger:'genero'
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:13:22] "POST /dbproj/song HTTP/1.1" 200 -
+ERROR:logger:'id'
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:14:06] "POST /dbproj/song HTTP/1.1" 200 -
+ERROR:logger:'id'
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:14:56] "POST /dbproj/song HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:logger:0
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:15:33] "POST /dbproj/song HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:15:58] "POST /dbproj/song HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:logger:'duracao'
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:22:29] "POST /dbproj/song HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:23:24] "POST /dbproj/song HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\flask\\_compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\jwt\\api_jwt.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\jwt\\api_jws.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\jwt\\algorithms.py', reloading
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 16:39:35] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\jwt\\utils.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 16:39:48] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:01:04] "PUT /dbproj/user HTTP/1.1" 200 -
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (71, 10, 10, 1, 8105640961816338, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (71, 10, 10, 1, 8105640961816338, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:01:34] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (72, 10, 10, 1, 6137596523907909, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (72, 10, 10, 1, 6137596523907909, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:01:38] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\.vscode\\extensions\\ms-python.python-2023.10.1\\pythonFiles\\lib\\python\\debugpy\\adapter\\clients.py', reloading
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (73, 10, 10, 1, 5918909720651515, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (73, 10, 10, 1, 5918909720651515, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:02:15] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (74, 10, 10, 1, 2997920115678654, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (74, 10, 10, 1, 2997920115678654, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:02:17] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (75, 10, 10, 1, 6916692095157002, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (75, 10, 10, 1, 6916692095157002, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:03:06] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (76, 10, 10, 1, 4722696172773302, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (76, 10, 10, 1, 4722696172773302, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:05:24] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (77, 10, 10, 1, 3690774543432470, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (77, 10, 10, 1, 3690774543432470, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:05:43] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (78, 10, 10, 1, 6719064189023734, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (78, 10, 10, 1, 6719064189023734, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:05:58] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (79, 10, 10, 1, 5464472228011244, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (79, 10, 10, 1, 5464472228011244, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:07:29] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:An error occurred while saving card information: 2
+ERROR:root:An error occurred during card generation: 2
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:07:37] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (80, 10, 10, 1, 4625451834243880, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (80, 10, 10, 1, 4625451834243880, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:17:48] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (81, 10, 10, 1, 36522161214255073, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (81, 10, 10, 1, 36522161214255073, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:19:23] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+ERROR:root:An error occurred while saving card information: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (82, 10, 10, 1, 33055968539073955, null).
+
+ERROR:root:An error occurred during card generation: null value in column "vencimento" of relation "cartao" violates not-null constraint
+DETAIL:  Failing row contains (82, 10, 10, 1, 33055968539073955, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:22:29] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:An error occurred during card generation: 'int' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:25:55] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+ERROR:root:An error occurred during card generation: 'int' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:32:31] "[35m[1mPOST /dbproj/card HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:33:16] "POST /dbproj/card HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:51:23] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\capture.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\doctest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\junitxml.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\logging.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\monkeypatch.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\recwarn.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\tmpdir.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\flask\\_compat.py', reloading
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:55:05] "[35m[1mPOST /dbproj/subscription HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:can't adapt type 'dict'
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:55:50] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+ERROR:root:can't adapt type 'dict'
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:58:01] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:column "subscription_id" does not exist
+LINE 1: SELECT subscription_id, expires FROM subscriptions WHERE use...
+               ^
+HINT:  Perhaps you meant to reference the column "subscriptions.subscritpionid".
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:58:19] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:column "subscriptionid" does not exist
+LINE 1: SELECT subscriptionid, expires FROM subscriptions WHERE user...
+               ^
+HINT:  Perhaps you meant to reference the column "subscriptions.subscritpionid".
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 17:59:46] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:column "subscription_id" does not exist
+LINE 1: SELECT subscription_id, expires FROM subscriptions WHERE use...
+               ^
+HINT:  Perhaps you meant to reference the column "subscriptions.subscritpionid".
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:02:37] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\.vscode\\extensions\\ms-python.python-2023.10.1\\pythonFiles\\lib\\python\\debugpy\\adapter\\clients.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:column "start_time" of relation "subscriptions" does not exist
+LINE 1: INSERT INTO subscriptions (start_time, expires, active, mont...
+                                   ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:03:52] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:column "months" of relation "subscriptions" does not exist
+LINE 1: ...T INTO subscriptions (starttime, expires, active, months, pa...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:04:28] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:column "pay_value" of relation "subscriptions" does not exist
+LINE 1: ...subscriptions (starttime, expires, active, meses, pay_value,...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:05:01] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:invalid input syntax for type integer: "quarter"
+LINE 2: ...ES ('2023-06-16'::date, '2023-09-14'::date, TRUE, 'quarter',...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:05:25] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:column "start_time" of relation "subscriptions" does not exist
+LINE 1: INSERT INTO subscriptions (start_time, expires, active, peri...
+                                   ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:06:52] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:column "period" of relation "subscriptions" does not exist
+LINE 1: ...T INTO subscriptions (starttime, expires, active, period, pa...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:07:16] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+ERROR:root:column "period" of relation "subscriptions" does not exist
+LINE 1: ...T INTO subscriptions (starttime, expires, active, period, pa...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:07:29] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:invalid input syntax for type interval: "quarter"
+LINE 2: ...-06-16'::date, '2023-09-14'::date, TRUE, INTERVAL 'quarter',...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:07:37] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:syntax error at or near ","
+LINE 1: ...T INTO subscriptions (starttime, expires, active, , payvalue...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:10:05] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:syntax error at or near ","
+LINE 1: ...T INTO subscriptions (starttime, expires, active, , payvalue...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:11:02] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:invalid input syntax for type integer: "quarter"
+LINE 2: ...ES ('2023-06-16'::date, '2023-09-14'::date, TRUE, 'quarter',...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:13:04] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:type object 'datetime.date' has no attribute 'relativedelta'
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:15:50] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:invalid input syntax for type integer: "quarter"
+LINE 2: ...ES ('2023-06-16'::date, '2023-09-14'::date, TRUE, 'quarter',...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:17:44] "POST /dbproj/subscription HTTP/1.1" 200 -
+ERROR:root:invalid input syntax for type integer: "quarter"
+LINE 2: ...ES ('2023-06-16'::date, '2023-09-14'::date, TRUE, 'quarter',...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:19:56] "POST /dbproj/subscription HTTP/1.1" 200 -
+ERROR:root:invalid input syntax for type integer: "quarter"
+LINE 2: ...ES ('2023-06-16'::date, '2023-09-14'::date, TRUE, 'quarter',...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:20:09] "POST /dbproj/subscription HTTP/1.1" 200 -
+ERROR:root:invalid input syntax for type integer: "quarter"
+LINE 2: ...ES ('2023-06-16'::date, '2023-09-14'::date, TRUE, 'quarter',...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:20:28] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:column "meses" is of type integer but expression is of type date
+LINE 2: ...ES ('2023-06-16'::date, '2023-09-14'::date, TRUE, '2023-09-1...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:22:14] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:column "subscriptionid" does not exist
+LINE 3:        RETURNING subscriptionid
+                         ^
+HINT:  Perhaps you meant to reference the column "subscriptions.subscritpionid".
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:24:00] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:null value in column "subscritpionid" of relation "subscriptions" violates not-null constraint
+DETAIL:  Failing row contains (null, 2023-06-16, 2023-09-14, t, 3, 25, 18).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:27:05] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:null value in column "subscritpionid" of relation "subscriptions" violates not-null constraint
+DETAIL:  Failing row contains (null, 2023-06-16, 2023-09-14, t, 3, 25, 18).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:29:01] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:tuple indices must be integers or slices, not str
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:29:30] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:Card does not exist
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:30:15] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:Card does not exist
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:32:35] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:'builtin_function_or_method' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:33:48] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:36:45] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+ERROR:root:Card does not exist
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:38:42] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:Insufficient funds in the associated cards
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:41:59] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:Insufficient funds in the associated cards
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:44:26] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 18:45:00] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\.vscode\\extensions\\ms-python.python-2023.10.1\\pythonFiles\\lib\\python\\debugpy\\adapter\\clients.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:26:24] "[31m[1mPOST /dbproj/song HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:26:45] "PUT /dbproj/user HTTP/1.1" 200 -
+ERROR:logger:invalid input syntax for type date: "2024-045-28T00:00:00"
+LINE 1: ...userid, genero,duracao) VALUES ('Nunca desistir', '2024-045-...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:27:33] "POST /dbproj/song HTTP/1.1" 200 -
+ERROR:logger:invalid input syntax for type date: "2024-045-28T00:00:00"
+LINE 1: ...userid, genero,duracao) VALUES ('Nunca desistir', '2024-045-...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:27:42] "POST /dbproj/song HTTP/1.1" 200 -
+ERROR:logger:invalid input syntax for type date: "2024-045-28T00:00:00"
+LINE 1: ...userid, genero,duracao) VALUES ('Nunca desistir', '2024-045-...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:27:51] "POST /dbproj/song HTTP/1.1" 200 -
+ERROR:logger:invalid input syntax for type date: "2024-045-28T00:00:00"
+LINE 1: ...users_userid, genero,duracao) VALUES ('Nunca de', '2024-045-...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:28:13] "POST /dbproj/song HTTP/1.1" 200 -
+ERROR:logger:invalid input syntax for type date: "2024-045-28T00:00:00"
+LINE 1: ..., users_userid, genero,duracao) VALUES ('Sonhar', '2024-045-...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:28:23] "POST /dbproj/song HTTP/1.1" 200 -
+ERROR:logger:invalid input syntax for type date: "2024-045-28T00:00:00"
+LINE 1: ...userid, genero,duracao) VALUES ('Nunca desistir', '2024-045-...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:28:39] "POST /dbproj/song HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:29:19] "POST /dbproj/song HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:29:45] "POST /dbproj/song HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:30:05] "[31m[1mPOST /dbproj/playlist HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:30:48] "PUT /dbproj/user HTTP/1.1" 200 -
+ERROR:root:Invalid visibility value
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:31:05] "POST /dbproj/playlist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:relation "playlists" does not exist
+LINE 1: INSERT INTO playlists (nome_da_playlist, privada, users_user...
+                    ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:31:54] "POST /dbproj/playlist HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 19:34:48] "POST /dbproj/playlist HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:17:25] "[33mPOST /dbproj/albm HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:17:29] "[33mPOST /dbproj/albm HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:17:36] "[31m[1mPOST /dbproj/album HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:17:56] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:18:07] "[31m[1mPOST /dbproj/album HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:18:48] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:19:08] "[31m[1mPOST /dbproj/album HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:21:07] "[31m[1mPOST /dbproj/album HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:21:16] "[31m[1mPOST /dbproj/album HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:21:18] "[31m[1mPOST /dbproj/album HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:22:45] "[31m[1mPOST /dbproj/album HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:23:35] "[31m[1mPOST /dbproj/album HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\.vscode\\extensions\\ms-python.python-2023.10.1\\pythonFiles\\lib\\python\\debugpy\\adapter\\clients.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:24:48] "[31m[1mPOST /dbproj/album HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:local variable 'artist_id' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:25:37] "POST /dbproj/album HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:null value in column "users_userid" of relation "musica" violates not-null constraint
+DETAIL:  Failing row contains (5, Triste, null, null, 2024-08-28, null, 2).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:28:11] "POST /dbproj/album HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:29:41] "POST /dbproj/album HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:40:09] "[31m[1mGET //dbproj/song/%3CTer%20Fé%3E HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:40:34] "GET //dbproj/song/%3CTer%20Fé%3E HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:40:42] "GET //dbproj/song/%3CTer%3E HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:41:25] "GET //dbproj/song/Ter%20Fé HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:relation "users_album" does not exist
+LINE 4:             INNER JOIN users_album ua ON a.albumid = ua.albu...
+                               ^
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:47:51] "GET /dbproj/artist_info/17 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\capture.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\doctest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\junitxml.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\logging.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\monkeypatch.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\recwarn.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\anaconda3\\Lib\\site-packages\\_pytest\\tmpdir.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:51:25] "GET /dbproj/artist_info/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 20:51:49] "GET /dbproj/artist_info/6 HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 21:14:05] "[33mPOST /dbproj/dbproj/comments/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 21:14:25] "[31m[1mPOST /dbproj/comments/2 HTTP/1.1[0m" 401 -
+ERROR:root:null value in column "comentarios_idcomentario" of relation "comentarios" violates not-null constraint
+DETAIL:  Failing row contains (1, Comentario daora, 2, 6, null, null, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 21:14:53] "POST /dbproj/comments/2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 21:26:44] "[31m[1mPOST /dbproj/comments/2 HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 21:26:53] "PUT /dbproj/user HTTP/1.1" 200 -
+ERROR:root:null value in column "comentarios_musica_idmusica" of relation "comentarios" violates not-null constraint
+DETAIL:  Failing row contains (2, Comentario daora, 2, 6, 0, null, null).
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 21:27:07] "POST /dbproj/comments/2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\befel\\.vscode\\extensions\\ms-python.python-2023.10.1\\pythonFiles\\lib\\python\\debugpy\\adapter\\clients.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+ERROR:root:insert or update on table "comentarios" violates foreign key constraint "comentarios_fk3"
+DETAIL:  Key (comentarios_idcomentario, comentarios_musica_idmusica, comentarios_users_userid)=(0, 0, 0) is not present in table "comentarios".
+
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 21:29:13] "POST /dbproj/comments/2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 21:55:04] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\befel\\OneDrive\\Ambiente de Trabalho\\Bernardo\\Estudos\\2 Semestre\\Spotifly.API\\spotiflyAPI.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 15:58:47] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 15:59:07] "[31m[1mPOST /dbproj/card HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 15:59:18] "[31m[1mPOST /dbproj/card HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 15:59:29] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 15:59:44] "[31m[1mPOST /dbproj/card HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 124-746-106
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:11:38] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:11:50] "POST /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:11:55] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:12:22] "POST /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:12:28] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:12:33] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:12:36] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:12:58] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:15:45] "[31m[1mGET /dbproj/addartist HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:15:56] "[31m[1mPOST /dbproj/addartist HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:16:02] "[31m[1mPOST /dbproj/addartist HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:17:07] "[31m[1mPOST /dbproj/song HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:17:26] "[31m[1mPOST /dbproj/song HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:17:35] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:17:50] "POST /dbproj/song HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:19:07] "POST /dbproj/album HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:20:44] "[31m[1mGET /dbproj/song/Ter%20Fé HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:20:51] "GET /dbproj/song/Ter%20Fé HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:21:40] "GET /dbproj/song/T HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:24:28] "GET /dbproj/artist_info/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:24:47] "GET /dbproj/artist_info/6 HTTP/1.1" 200 -
+ERROR:root:'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:25:10] "GET /dbproj/artist_info/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:26:09] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:26:48] "POST /dbproj/card HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:27:30] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:27:50] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:29:31] "[31m[1mPOST /dbproj/subscription HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:29:52] "POST /dbproj/subscription HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 16:31:04] "POST /dbproj/playlist HTTP/1.1" 200 -

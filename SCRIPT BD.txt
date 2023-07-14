@@ -1,0 +1,172 @@
+CREATE TABLE users (
+	userid	 BIGSERIAL,
+	nickname	 TEXT NOT NULL,
+	email	 TEXT NOT NULL,
+	address	 TEXT NOT NULL,
+	birthday	 DATE NOT NULL,
+	artisticname TEXT,
+	password	 TEXT NOT NULL,
+	PRIMARY KEY(userid)
+);
+
+CREATE TABLE profiles (
+	profileid BIGSERIAL,
+	name	 TEXT,
+	PRIMARY KEY(profileid)
+);
+
+CREATE TABLE musica (
+	idmusica		 BIGSERIAL,
+	titulo_musica	 TEXT,
+	genero		 TEXT,
+	duracao		 SMALLINT,
+	data_de_lancamento DATE,
+	users_userid	 BIGINT NOT NULL,
+	editora_idlabel	 BIGINT NOT NULL,
+	PRIMARY KEY(idmusica)
+);
+
+CREATE TABLE playlist (
+	idplaylist	 BIGSERIAL,
+	nome_da_playlist TEXT,
+	nmusicas	 INTEGER,
+	privada		 BOOL,
+	users_userid	 BIGINT NOT NULL,
+	PRIMARY KEY(idplaylist)
+);
+
+CREATE TABLE album (
+	albumid	 BIGSERIAL,
+	nomealbum	 TEXT,
+	lenmusicas	 INTEGER,
+	lancamento	 DATE NOT NULL,
+	editora_idlabel BIGINT NOT NULL,
+	users_userid	 BIGINT NOT NULL,
+	PRIMARY KEY(albumid)
+);
+
+CREATE TABLE editora (
+	idlabel BIGSERIAL,
+	nome	 TEXT,
+	PRIMARY KEY(idlabel)
+);
+
+CREATE TABLE comentarios (
+	idcomentario		 BIGSERIAL,
+	comentario			 TEXT,
+	musica_idmusica		 BIGINT,
+	users_userid		 BIGINT,
+	comentarios_idcomentario	 BIGINT NOT NULL,
+	comentarios_musica_idmusica BIGINT NOT NULL,
+	comentarios_users_userid	 BIGINT NOT NULL,
+	PRIMARY KEY(idcomentario,musica_idmusica,users_userid)
+);
+
+CREATE TABLE cartao (
+	cardid	 BIGSERIAL,
+	valor	 INTEGER,
+	saldo	 INTEGER,
+	cardnumber	 BIGINT NOT NULL,
+	vencimento	 DATE NOT NULL,
+	users_userid BIGINT NOT NULL,
+	PRIMARY KEY(cardid)
+);
+
+CREATE TABLE subscriptions (
+	subscritpionid BIGSERIAL,
+	starttime	 DATE,
+	expires	 DATE,
+	active	 BOOL,
+	meses		 INTEGER,
+	payvalue	 INTEGER,
+	users_userid	 BIGINT NOT NULL,
+	PRIMARY KEY(subscritpionid)
+);
+
+CREATE TABLE payment (
+	paymentid			 BIGSERIAL,
+	paymentdate			 DATE,
+	paymentvalue		 INTEGER,
+	subscriptions_subscritpionid BIGINT NOT NULL,
+	cartao_cardid		 BIGINT NOT NULL,
+	PRIMARY KEY(paymentid)
+);
+
+CREATE TABLE execucao (
+	datadeexec	 DATE,
+	musica_idmusica BIGINT NOT NULL,
+	users_userid	 BIGINT NOT NULL
+);
+
+CREATE TABLE posicaoplay (
+	posicao		 BIGSERIAL,
+	playlist_idplaylist BIGINT,
+	musica_idmusica	 BIGINT,
+	PRIMARY KEY(playlist_idplaylist,musica_idmusica)
+);
+
+CREATE TABLE posicaoalbum (
+	posicao	 BIGSERIAL,
+	album_albumid BIGINT,
+	PRIMARY KEY(album_albumid)
+);
+
+CREATE TABLE cartao_users (
+	cartao_cardid BIGINT,
+	users_userid	 BIGINT NOT NULL,
+	PRIMARY KEY(cartao_cardid)
+);
+
+CREATE TABLE editora_users (
+	editora_idlabel BIGINT NOT NULL,
+	users_userid	 BIGINT,
+	PRIMARY KEY(users_userid)
+);
+
+CREATE TABLE users_musica (
+	users_userid	 BIGINT,
+	musica_idmusica BIGINT,
+	PRIMARY KEY(users_userid,musica_idmusica)
+);
+
+CREATE TABLE users_profiles (
+	users_userid	 BIGINT,
+	profiles_profileid BIGINT NOT NULL,
+	PRIMARY KEY(users_userid)
+);
+
+CREATE TABLE musica_album (
+	musica_idmusica BIGINT,
+	album_albumid	 BIGINT NOT NULL,
+	PRIMARY KEY(musica_idmusica)
+);
+
+ALTER TABLE users ADD UNIQUE (nickname, password);
+ALTER TABLE musica ADD CONSTRAINT musica_fk1 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE musica ADD CONSTRAINT musica_fk2 FOREIGN KEY (editora_idlabel) REFERENCES editora(idlabel);
+ALTER TABLE playlist ADD CONSTRAINT playlist_fk1 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE album ADD CONSTRAINT album_fk1 FOREIGN KEY (editora_idlabel) REFERENCES editora(idlabel);
+ALTER TABLE album ADD CONSTRAINT album_fk2 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE comentarios ADD CONSTRAINT comentarios_fk1 FOREIGN KEY (musica_idmusica) REFERENCES musica(idmusica);
+ALTER TABLE comentarios ADD CONSTRAINT comentarios_fk2 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE comentarios ADD CONSTRAINT comentarios_fk3 FOREIGN KEY (comentarios_idcomentario, comentarios_musica_idmusica, comentarios_users_userid) REFERENCES comentarios(idcomentario, musica_idmusica, users_userid);
+ALTER TABLE cartao ADD CONSTRAINT cartao_fk1 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE subscriptions ADD CONSTRAINT subscriptions_fk1 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE payment ADD CONSTRAINT payment_fk1 FOREIGN KEY (subscriptions_subscritpionid) REFERENCES subscriptions(subscritpionid);
+ALTER TABLE payment ADD CONSTRAINT payment_fk2 FOREIGN KEY (cartao_cardid) REFERENCES cartao(cardid);
+ALTER TABLE execucao ADD CONSTRAINT execucao_fk1 FOREIGN KEY (musica_idmusica) REFERENCES musica(idmusica);
+ALTER TABLE execucao ADD CONSTRAINT execucao_fk2 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE posicaoplay ADD CONSTRAINT posicaoplay_fk1 FOREIGN KEY (playlist_idplaylist) REFERENCES playlist(idplaylist);
+ALTER TABLE posicaoplay ADD CONSTRAINT posicaoplay_fk2 FOREIGN KEY (musica_idmusica) REFERENCES musica(idmusica);
+ALTER TABLE posicaoalbum ADD CONSTRAINT posicaoalbum_fk1 FOREIGN KEY (album_albumid) REFERENCES album(albumid);
+ALTER TABLE cartao_users ADD CONSTRAINT cartao_users_fk1 FOREIGN KEY (cartao_cardid) REFERENCES cartao(cardid);
+ALTER TABLE cartao_users ADD CONSTRAINT cartao_users_fk2 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE editora_users ADD CONSTRAINT editora_users_fk1 FOREIGN KEY (editora_idlabel) REFERENCES editora(idlabel);
+ALTER TABLE editora_users ADD CONSTRAINT editora_users_fk2 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE users_musica ADD CONSTRAINT users_musica_fk1 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE users_musica ADD CONSTRAINT users_musica_fk2 FOREIGN KEY (musica_idmusica) REFERENCES musica(idmusica);
+ALTER TABLE users_profiles ADD CONSTRAINT users_profiles_fk1 FOREIGN KEY (users_userid) REFERENCES users(userid);
+ALTER TABLE users_profiles ADD CONSTRAINT users_profiles_fk2 FOREIGN KEY (profiles_profileid) REFERENCES Sprofiles(profileid);
+ALTER TABLE musica_album ADD CONSTRAINT musica_album_fk1 FOREIGN KEY (musica_idmusica) REFERENCES musica(idmusica);
+ALTER TABLE musica_album ADD CONSTRAINT musica_album_fk2 FOREIGN KEY (album_albumid) REFERENCES album(albumid);
+

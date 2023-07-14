@@ -1,3 +1,4 @@
+from datetime import date, timedelta
 from functools import wraps
 import flask
 import psycopg2
@@ -10,6 +11,7 @@ from datetime import datetime, timedelta
 import os
 import json
 import random
+from dateutil.relativedelta import relativedelta
 
 app = flask.Flask(__name__)
 
@@ -262,7 +264,7 @@ def login():
 
 
 @app.route('/dbproj/editora', methods=['POST'])
-@auth_guard(['Admin','Artista'])
+@auth_guard(['Admin'])
 def add_editora():
     logger.info('POST /editora')
     payload = flask.request.get_json()
@@ -416,19 +418,49 @@ def decode_jwt(token):
 
 
 
-def verifica_perfil(nickname):
-    #Preciso verificar a tabela de perfis e a tabela de subscriçao para aquele userid
-    #Na tabela de perfis verifico se é artista e se é adminstrador
-    #Na tabela de subscriçao verifico se é VIP
-    #Exemplo: Se o user 'jpedro' for artista tem um perfil de artista e se ao mesmo tempo
-    # for um subcstritor ativo tambem será um VIP assim sendo temos a session
-    # session['user_persmissions'] =  ['artista', 'vip']
-    # session['user_permissions']  = ['administrator', 'artista']
-    session['user_permissions']  = [ 'artista','vip']
+@app.route('/dbproj/addartist', methods=['PUT'])
+@auth_guard(['Admin'])
+def add_artist():
+    try:
+        data = request.get_json()
+        userid = data['userid']
+        artisticname = data['artisticname']
+        conn = db_connection()
+        cur = conn.cursor()
+
+        cur.execute(
+            """UPDATE users 
+            SET artisticname=%s
+            WHERE userid=%s""",
+            (artisticname, userid)
+        )
+        conn.commit()
+        cur.execute(
+            "INSERT INTO users_profiles (users_userid, profiles_profileid) "
+            "VALUES (%s, %s)",
+            (userid, 3)
+        )
+        conn.commit()
+
+        response = {
+            'status': 200,
+            'errors': None,
+            'results': f"Usuário: {userid} agora é artista"
+        }
+        return jsonify(response)
+
+    except Exception as e:
+        logger.error(str(e))
+        response = {
+            'status': 500,
+            'errors': str(e),
+            'results': None
+        }
+        return jsonify(response)
 
 
 @app.route('/dbproj/song', methods=['POST'])
-@auth_guard(['Admin'])
+@auth_guard(['Artista'])
 def add_song():
 
     try:
@@ -439,9 +471,11 @@ def add_song():
         release_date = data['release_date']
         publisher_id = data['publisher']
         other_artists = data['other_artists']
+        genero = data['genero']
+        duracao = data['duracao']
 
         # Salvar a música no banco de dados
-        song_id = save_song(song_name, release_date, publisher_id, other_artists)
+        song_id = save_song(song_name, release_date, publisher_id, other_artists,genero,duracao)
 
         # Responder com o ID da música criada
         response = {
@@ -460,24 +494,24 @@ def add_song():
         }
         return jsonify(response)
 
-def save_song(song_name, release_date, publisher_id, other_artists):
+def save_song(song_name, release_date, publisher_id, other_artists,genero,duracao):
     conn = db_connection()
     cur = conn.cursor()
-
+    user_data = check_jwt()
     # Inserir a música na tabela "musica"
     cur.execute(
-        "INSERT INTO musica (titulo_musica, data_de_lancamento, users_userid) "
-        "VALUES (%s, %s, %s) RETURNING idmusica",
-        (song_name, release_date, publisher_id)
+        "INSERT INTO musica (titulo_musica, data_de_lancamento, editora_idlabel, users_userid, genero,duracao) "
+        "VALUES (%s, %s, %s, %s, %s, %s) RETURNING idmusica",
+        (song_name, release_date, publisher_id, user_data['userid'],genero, duracao)
     )
     song_id = cur.fetchone()[0]
 
     # Inserir os artistas adicionais na tabela de relacionamento "musica_artistas"
     for artist_id in other_artists:
         cur.execute(
-            "INSERT INTO musica_artistas (musica_idmusica, artistas_artistid) "
+            "INSERT INTO users_musica (musica_idmusica, users_userid) "
             "VALUES (%s, %s)",
-            (song_id, artist_id)
+                (song_id, artist_id)
         )
 
     conn.commit()
@@ -683,6 +717,10 @@ def add_users_profiles():
 
 import logging
 
+
+
+
+
 @app.route('/dbproj/card', methods=['POST'])
 @auth_guard(['Admin'])
 def generate_cards():
@@ -693,18 +731,23 @@ def generate_cards():
         cur = conn.cursor()
         number_cards = int(data['number_cards'])
         card_price = int(data['card_price'])
+        vencimento = data['vencimento']
         cards = []
+
+        if card_price not in [10,25,50]:
+            raise Exception('Invalid price for card')
 
         for _ in range(number_cards):
             cardnumber = generate_card_id()
             card_info = {
                 'cardnumber': cardnumber,
                 'price': card_price,
-                'userid': user_data['userid']
+                'userid': user_data['userid'],
+                'vencimento': vencimento
             }
             cards.append(save_card_info(card_info))
         
-        results = [card[0] for card in cards]
+        results = [card for card in cards]
         response = {
             'status': 200,
             'errors': None,
@@ -722,17 +765,17 @@ def generate_cards():
 
 
 def generate_card_id():
-    return random.randint(100000, 999999)
+    return random.randrange(10**16, 10**17)
 
 
 def save_card_info(card_info):
     try:
         conn = db_connection()
         cur = conn.cursor()
-        query = "INSERT INTO cartao (cardnumber, saldo, users_userid) VALUES (%s, %s, %s) RETURNING cardid"
-        values = (card_info['cardnumber'], card_info['price'], card_info['userid'])
+        query = "INSERT INTO cartao (cardnumber, saldo, valor, users_userid, vencimento) VALUES (%s, %s, %s,%s, %s) RETURNING cardid"
+        values = (card_info['cardnumber'], card_info['price'],card_info['price'], card_info['userid'],card_info['vencimento'])
         cur.execute(query, values)
-        cardIdCreated = cur.fetchall()[0]
+        cardIdCreated = cur.fetchone()[0]
         conn.commit()
         return cardIdCreated
     except Exception as e:
@@ -752,89 +795,533 @@ def get_all_cards():
         raise
 
 
-# Função para verificar a existência de um usuário
-def verificar_existencia_usuario(users_userid):
+@app.route('/dbproj/playlist', methods=['POST'])
+@auth_guard()
+def create_playlist():
     try:
+        data = request.get_json()
+        playlist_name = data.get('playlist_name')
+        visibility = data.get('visibility')
+        songs = data.get('songs')
+        current_user = check_jwt()
+
+        # Verify if playlist_name, visibility, and songs are provided
+        if not playlist_name or not visibility or not songs:
+            raise Exception('Playlist name, visibility, and songs are required')
+
+        # Verify if the user is a premium consumer
+        if not is_premium_user():
+            raise Exception('Only premium consumers can create playlists')
+
         conn = db_connection()
-        cursor = conn.cursor()
-        cursor.execute("SELECT COUNT(*) FROM users WHERE userid = %s", (users_userid,))
-        count = cursor.fetchone()[0]
-        return count > 0
-    except Exception as e:
-        logging.error(f"An error occurred while verifying user existence: {str(e)}")
-        raise
-    finally:
+        cur = conn.cursor()
+        if visibility == "private":
+            visibilidade = False
+        elif visibility == "public":
+            visibilidade = True
+        else:
+            raise Exception('Invalid visibility value')
+
+        # Insert the playlist data into the database
+        cur.execute(
+            """INSERT INTO playlist (nome_da_playlist, privada, users_userid)
+               VALUES (%s, %s, %s)
+               RETURNING idplaylist""",
+            (playlist_name, visibilidade, current_user['userid'])
+        )
+        playlist_id = cur.fetchone()[0]
+
+        # Insert the songs into the playlist
+        for song_id in songs:
+            cur.execute(
+                """INSERT INTO posicaoplay (playlist_idplaylist, musica_idmusica)
+                   VALUES (%s, %s)""",
+                (playlist_id, song_id)
+            )
+
+        conn.commit()
         conn.close()
 
+        response = {
+            'status': 200,
+            'errors': None,
+            'results': playlist_id
+        }
+        return jsonify(response)
+
+    except Exception as e:
+        logging.error(str(e))
+        response = {
+            'status': 500,
+            'errors': str(e),
+            'results': None
+        }
+        return jsonify(response)
 
 
-
-
-
-def create_users_musica(user_id, music_id):
+def is_premium_user():
+    user_data = check_jwt()
+    user_id = user_data['userid']
+    
     conn = db_connection()
     cur = conn.cursor()
 
+    cur.execute("SELECT active FROM subscriptions WHERE users_userid = %s", (user_id,))
+    subscription = cur.fetchone()
+
+    if subscription:
+        active = subscription[0]
+        return active if active is not None else False
+    else:
+        # Usuário não possui uma assinatura
+        return False
+
+@app.route('/dbproj/artist_info/<artist_id>', methods=['GET'])
+@auth_guard()
+def get_artist_info(artist_id):
     try:
-        cur.execute("INSERT INTO users_musica (users_userid, musica_idmusica) VALUES (%s, %s)", (user_id, music_id))
+        conn = db_connection()
+        cur = conn.cursor()
+    	
+        # Retrieve artist's name
+        cur.execute("SELECT artisticname FROM users WHERE userid = %s", (artist_id,))
+        artist_name = cur.fetchone()[0]
+
+        # Retrieve artist's songs
+        cur.execute("""
+            SELECT idmusica
+            FROM musica
+            WHERE users_userid = %s
+        """, (artist_id,))
+        songs = [row[0] for row in cur.fetchall()]
+
+        # Retrieve artist's albums
+        cur.execute("""
+            SELECT albumid
+            FROM album
+            WHERE users_userid = %s
+        """, (artist_id,))
+        albums = [row[0] for row in cur.fetchall()]
+
+        # Retrieve public playlists containing the artist's songs
+        cur.execute("""
+            SELECT p.idplaylist
+            FROM playlist p
+            INNER JOIN posicaoplay pp ON p.idplaylist = pp.playlist_idplaylist
+            INNER JOIN musica m ON pp.musica_idmusica = m.idmusica
+            WHERE p.privada = FALSE AND m.users_userid = %s
+        """, (artist_id,))
+        playlists = [row[0] for row in cur.fetchall()]
+
+        conn.close()
+
+        artist_info = {
+            'name': artist_name,
+            'songs': songs,
+            'albums': albums,
+            'playlists': playlists
+        }
+
+        response = {
+            'status': 200,
+            'errors': None,
+            'results': artist_info
+        }
+        return jsonify(response)
+
+    except Exception as e:
+        logging.error(str(e))
+        response = {
+            'status': 500,
+            'errors': str(e),
+            'results': None
+        }
+        return jsonify(response)
+
+@app.route('/dbproj/comments/<song_id>', methods=['POST'])
+@auth_guard()
+def add_comment(song_id):
+    try:
+        conn = db_connection()
+        cur = conn.cursor()
+        current_user = check_jwt()
+        comment = request.json.get('comment')
+
+        # Insert the comment into the database
+        cur.execute("""
+            INSERT INTO comentarios (comentario, musica_idmusica, users_userid,)
+            VALUES (%s, %s, %s,%s,%s,%s)
+            RETURNING idcomentario
+        """, (comment, song_id, current_user['userid'],0,0,0))
+        comment_id = cur.fetchone()[0]
         conn.commit()
+        conn.close()
 
-        logger.info("Relacionamento entre usuário e música criado com sucesso")
-        return True
+        response = {
+            'status': 200,
+            'errors': None,
+            'results': comment_id
+        }
+        return jsonify(response)
 
-    except (Exception, psycopg2.DatabaseError) as error:
-        logger.error(f"Erro ao criar relacionamento entre usuário e música: {error}")
-        conn.rollback()
-        return False
+    except Exception as e:
+        logging.error(str(e))
+        response = {
+            'status': 500,
+            'errors': str(e),
+            'results': None
+        }
+        return jsonify(response)
 
-    finally:
-        if conn is not None:
-            conn.close()
 
-def music_exists_by_id(music_id):
+@app.route('/dbproj/comments/<song_id>/<parent_comment_id>', methods=['POST'])
+@auth_guard()
+def reply_to_comment(song_id, parent_comment_id):
+    try:
+        conn = db_connection()
+        cur = conn.cursor()
+        current_user = check_jwt()
+
+        comment = request.json.get('comment')
+
+        # Insert the reply comment into the database
+        cur.execute("""
+            INSERT INTO comentarios (comentario, musica_idmusica, users_userid, comentarios_idcomentario)
+            VALUES (%s, %s, %s, %s)
+            RETURNING idcomentario
+        """, (comment, song_id, current_user['userid'], parent_comment_id))
+        comment_id = cur.fetchone()[0]
+        conn.commit()
+        conn.close()
+
+        response = {
+            'status': 200,
+            'errors': None,
+            'results': comment_id
+        }
+        return jsonify(response)
+
+    except Exception as e:
+        logging.error(str(e))
+        response = {
+            'status': 500,
+            'errors': str(e),
+            'results': None
+        }
+        return jsonify(response)
+
+
+@app.route('/dbproj/song/<keyword>', methods=['GET'])
+@auth_guard()
+def search_song(keyword):
+    try:
+        conn = db_connection()
+        cur = conn.cursor()
+
+        # SQL query to retrieve songs that contain the provided keyword
+        cur.execute("""
+            SELECT m.titulo_musica, array_agg(u.artisticname) AS artists, array_agg(a.albumid) AS albums
+            FROM musica m
+            LEFT JOIN users_musica um ON m.idmusica = um.musica_idmusica
+            LEFT JOIN users u ON um.users_userid = u.userid
+            LEFT JOIN musica_album ma ON m.idmusica = ma.musica_idmusica
+            LEFT JOIN album a ON ma.album_albumid = a.albumid
+            WHERE m.titulo_musica ILIKE %s
+            GROUP BY m.idmusica
+        """, ('%' + keyword + '%',))
+
+        results = []
+        for row in cur.fetchall():
+            song_title = row[0]
+            artists = row[1] or []  # If there are no associated artists, return an empty list
+            albums = row[2] or []  # If there are no associated albums, return an empty list
+
+            song_data = {
+                'title': song_title,
+                'artists': artists,
+                'albums': albums
+            }
+            results.append(song_data)
+
+        conn.close()
+
+        response = {
+            'status': 200,
+            'errors': None,
+            'results': results
+        }
+        return jsonify(response)
+
+    except Exception as e:
+        logging.error(str(e))
+        response = {
+            'status': 500,
+            'errors': str(e),
+            'results': None
+        }
+        return jsonify(response)
+
+@app.route('/dbproj/album', methods=['POST'])
+@auth_guard(['Artista'])
+def add_album():
+    try:
+        data = request.get_json()
+        album_name = data.get('name')
+        release_date = data.get('release_date')
+        publisher_id = data.get('publisher')
+        songs = data.get('songs')
+        lenmusica = len(songs)
+        user_data= check_jwt()
+        userid = user_data['userid']
+
+        # Validate required fields
+        if not album_name or not release_date or not publisher_id or not songs:
+            raise Exception('Missing required fields')
+
+        conn = db_connection()
+        cur = conn.cursor()
+        
+        # Insert album into the database
+        cur.execute(
+            "INSERT INTO album (nomealbum, lancamento, editora_idlabel,users_userid,lenmusicas) VALUES (%s, %s, %s, %s,%s) RETURNING albumid",
+            (album_name, release_date, publisher_id,userid,lenmusica)
+        )
+        album_id = cur.fetchone()[0]
+
+        # Insert songs into the database and associate them with the album
+        for song in songs:
+
+            if isinstance(song, dict):
+                # New song with details provided
+                song_name = song.get('song_name')
+                song_release_date = song.get('release_date')
+                song_publisher_id = song.get('publisher')
+                other_artists = song.get('other_artists')
+
+                # Validate required song fields
+                if not song_name or not song_release_date or not song_publisher_id:
+                    raise Exception('Missing required song fields')
+
+                # Insert the new song into the database
+                cur.execute(
+                    "INSERT INTO musica (users_userid,titulo_musica, data_de_lancamento, editora_idlabel) VALUES (%s,%s, %s, %s) RETURNING idmusica",
+                    (userid,song_name, song_release_date, song_publisher_id)
+                )
+                new_song_id = cur.fetchone()[0]
+
+                # Associate the new song with the album
+                cur.execute(
+                    "INSERT INTO musica_album (album_albumid, musica_idmusica) VALUES (%s, %s)",
+                    (album_id, new_song_id)
+                )
+
+                # Associate other artists with the song
+                if other_artists:
+                    for artist_id in other_artists:
+                        cur.execute(
+                            "INSERT INTO users_musica (musica_idmusica, users_userid) VALUES (%s, %s)",
+                            (new_song_id, artist_id)
+                        )
+
+            else:
+                # Existing song ID provided
+                existing_song_id = song
+
+                # Check if the artist is associated with the existing song
+                cur.execute(
+                    "SELECT * FROM users_musica WHERE musica_idmusica = %s AND users_userid = %s",
+                    (existing_song_id, publisher_id)
+                )
+                existing_song_artist = cur.fetchone()
+
+                if not existing_song_artist:
+                    raise Exception('Artist is not associated with the selected existing song')
+
+                # Associate the existing song with the album
+                cur.execute(
+                    "INSERT INTO musica_album (album_albumid, musica_idmusica) VALUES (%s, %s)",
+                    (album_id, existing_song_id)
+                )
+
+        conn.commit()
+        conn.close()
+
+        response = {
+            'status': 200,
+            'errors': None,
+            'results': album_id
+        }
+        return jsonify(response)
+
+    except Exception as e:
+        logging.error(str(e))
+        response = {
+            'status': 500,
+            'errors': str(e),
+            'results': None
+        }
+        return jsonify(response)
+
+def check_song_artist(song_id, artist_id):
     conn = db_connection()
     cur = conn.cursor()
 
-    try:
-        # Check if the music exists in the music table
-        cur.execute("SELECT COUNT(*) FROM musica WHERE idmusica = %s", (music_id,))
-        count = cur.fetchone()[0]
+    # Verificar se a música está associada ao artista
+    cur.execute(
+        "SELECT * FROM users_musica WHERE musica_idmusica = %s AND users_userid = %s",
+        (song_id, artist_id)
+    )
+    existing_song_artist = cur.fetchone()
 
-        if count > 0:
-            return True  # The music exists
+    conn.close()
+
+    if not existing_song_artist:
+        raise Exception('Artist is not associated with the selected song')
+
+
+
+@app.route('/dbproj/subscription', methods=['POST'])
+@auth_guard()
+def subscribe():
+    try:
+        request_data = request.get_json()
+        period = request_data.get('period')
+        card_numbers = request_data.get('cards')
+
+        # Verifica se o período e os números de cartão foram fornecidos
+        if not period or not card_numbers:
+            raise Exception('Period and card numbers are required')
+
+        # Verifica se o período é válido
+        if period not in ['month', 'quarter', 'semester']:
+            raise Exception('Invalid subscription period')
+
+        conn = db_connection()
+        cur = conn.cursor()
+
+        user_data = check_jwt()
+        user_id = user_data['userid']
+
+        # Verifica se o usuário já possui uma assinatura ativa
+        cur.execute("SELECT subscritpionid, expires FROM subscriptions WHERE users_userid = %s AND active = TRUE", (user_id,))
+        current_subscription = cur.fetchone()
+
+        if current_subscription:
+            # Se houver uma assinatura ativa, define a data de início como o final da assinatura atual
+            start_time = current_subscription[1] + timedelta(days=1)
         else:
-            return False  # The music does not exist
+            # Se não houver uma assinatura ativa, define a data de início como a data atual
+            start_time = date.today()
 
-    except (Exception, psycopg2.DatabaseError) as error:
-        logger.error(f'Error checking music existence: {error}')
-        return False
+        # Calcula a data de expiração com base no período escolhido
+        # Mapeia os valores de período para o número de meses correspondente
+        period_mapping = {
+            'month': 1,
+            'quarter': 3,
+            'semester': 6
+        }
 
-    finally:
-        if conn is not None:
-            conn.close()
+                # Verifica se o período é válido e calcula a data de expiração
+        if period in period_mapping:
+            months = period_mapping[period]
+            expires = start_time + timedelta(days=30 * months)
+        else:
+            raise Exception('Invalid subscription period')
 
 
-@app.route('/users/musica', methods=['POST'])
-def criar_relacionamento():
-    try:
-        user_id = flask.request.json['users_userid']
-        music_id = flask.request.json['musica_idmusica']
+        total_payment_value = calculate_payment_value(period)
+        remaining_payment_value = total_payment_value
 
-        # Verifica se o user_id e o music_id existem
-        if user_exists_by_id(user_id) and music_exists_by_id(music_id):
-            if create_users_musica(user_id, music_id):
-                logger.info('Relacionamento criado com sucesso')
-                return flask.jsonify({'message': 'Relacionamento criado com sucesso'}), 201
+        # Insere os dados da assinatura na tabela
+        cur.execute(
+    """INSERT INTO subscriptions (starttime, expires, active, meses, payvalue, users_userid)
+       VALUES (%s, %s, TRUE, %s, %s, %s)
+       RETURNING subscritpionid""",
+    (start_time, expires, months, total_payment_value, user_data['userid']))
+
+        subscription_id = cur.fetchone()[0]
+
+
+        # Insere os dados de pagamento com base nos cartões fornecidos
+        for card_number in card_numbers:
+            # Verifica se o cartão pertence ao usuário
+            cur.execute("SELECT cardid, saldo FROM cartao WHERE cardnumber = %s", (card_number,))
+            card_info = cur.fetchone()
+
+            if not card_info:
+                raise Exception('Card does not exist')
+
+            card_id, saldo = card_info
+
+            # Check if the card-user relationship exists
+            cur.execute("SELECT * FROM cartao_users WHERE cartao_cardid = %s", (card_id,))
+            card_user_relationship = cur.fetchone()
+
+            if card_user_relationship:
+                # Check if the user inserting the card matches the associated user ID
+                if card_user_relationship[1] != user_id:
+                    raise Exception('Card already associated with a different user')
+
+            if saldo >= remaining_payment_value:
+                # Se o saldo do cartão for suficiente para pagar o valor restante
+                cur.execute(
+                    """INSERT INTO payment (paymentdate, paymentvalue, subscriptions_subscritpionid, cartao_cardid)
+                       VALUES (%s, %s, %s, %s)""",
+                    (date.today(), remaining_payment_value, subscription_id, card_id)
+                )
+                remaining_payment_value = 0
+                new_saldo = saldo - remaining_payment_value
             else:
-                logger.error('Erro ao criar relacionamento')
-                return flask.jsonify({'message': 'Erro ao criar relacionamento'}), 500
-        else:
-            logger.debug('UserID ou MusicID inexistente')
-            return flask.jsonify({'message': 'UserID ou MusicID inexistente'}), 500
+                # Se o saldo do cartão for insuficiente, utiliza o saldo disponível e atualiza o restante a ser pago
+                cur.execute(
+                    """INSERT INTO payment (paymentdate, paymentvalue, subscriptions_subscritpionid, cartao_cardid)
+                       VALUES (%s, %s, %s, %s)""",
+                    (date.today(), saldo, subscription_id, card_id)
+                )
+                remaining_payment_value -= saldo
+                new_saldo = 0
 
-    except KeyError:
-        logger.error('Dados inválidos')
-        return flask.jsonify({'message': 'Dados inválidos'}), 400
+            # Atualiza o saldo do cartão
+            cur.execute("UPDATE cartao SET saldo = %s WHERE cardid = %s", (new_saldo, card_id))
+
+            # Cria a relação entre o cartão e o usuário, caso ainda não exista
+            cur.execute("INSERT INTO cartao_users (cartao_cardid, users_userid) VALUES (%s, %s) ON CONFLICT DO NOTHING", (card_id, user_id))
+
+        # Verifica se o valor total foi pago
+        if remaining_payment_value > 0:
+            raise Exception('Insufficient funds in the associated cards')
+
+        conn.commit()
+        conn.close()
+
+        response = {
+            'status': 200,
+            'errors': None,
+            'results': subscription_id
+        }
+        return jsonify(response)
+
+    except Exception as e:
+        logging.error(str(e))
+        response = {
+            'status': 500,
+            'errors': str(e),
+            'results': None
+        }
+        return jsonify(response)
+
+
+def calculate_payment_value(period):
+    if period == 'month':
+        return 10
+    elif period == 'quarter':
+        return 25
+    elif period == 'semester':
+        return 40
+    else:
+        raise Exception('Invalid subscription period')
+
+
 
 
 if __name__ == '__main__':
@@ -856,5 +1343,3 @@ if __name__ == '__main__':
     port = 8080
     app.run(host=host, debug=True, threaded=True, port=port)
     logger.info(f'API v1.0 online: http://{host}:{port}')
-
-
